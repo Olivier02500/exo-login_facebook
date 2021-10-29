@@ -1,0 +1,114 @@
+html {
+    font-size: 62.5%;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e8e8e8;
+}
+
+section {
+    margin: 11%;
+}
+
+.container {
+    width: 100%;
+}
+
+section div {
+    display: inline-block;
+    width: 49.8%;
+}
+
+div p {
+    font-size: 3rem;
+    margin-left:40px;
+}
+
+#spécial {
+    font-size: 1.4rem;
+}
+
+.connection {
+    text-align: center;
+    width: 98%;
+}
+
+#identifiant ,#password {
+    width: 98%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 45px;
+    margin-top: 10px;
+    text-indent: 10px;
+    font-size: 1.5rem;
+}
+
+#button {
+    width: 98%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 45px;
+    margin-top: 10px;
+    text-indent: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: dodgerblue;
+    color: white;
+}
+
+
+
+.mdp {
+    padding-bottom: 1%;
+    margin: 3% 25%;
+    text-align: center;
+    border: 1px lightgrey;
+    border-style: none none solid none;
+}
+
+#mdp {
+    font-size: 1.5rem;
+    color: dodgerblue;
+    text-decoration-line: none;
+}
+
+.new_account {
+    margin: 1% 25%;
+    text-align: center;
+}
+
+#new_account {
+    width: 98%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 45px;
+    margin-top: 10px;
+    text-indent: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: #2bad2b;
+    color: white;
+}
+
+#form_ {
+    background: white;
+    height: 350px;
+    padding-top:3% ;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    box-shadow: 1px 4px 18px 3px rgba(0,0,0,0.33);
+}
+
+.spécial {
+    display: inline-block;
+    width: 80%;
+    position: relative;
+    top: 20%;
+}
